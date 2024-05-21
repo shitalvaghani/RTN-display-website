@@ -1,0 +1,1291 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+
+/* general css start */
+html {
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+display: flex;
+justify-content: center;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 5rem;
+    color: var(--text-black);
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 4rem;
+}
+
+h3 {
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0em;
+    color: var(--text-gray);
+
+}
+
+h4 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--text-card);
+    line-height: 1.5;
+}
+
+h5 {
+    margin-bottom: 0px;
+    font-weight: 600;
+    font-size: 2.3rem;
+}
+
+h6 {
+    color: var(--text-black);
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+p {
+    font-weight: 500;
+    font-size: 1.7rem;
+    color: var(--text-gray);
+}
+
+:root {
+    /* background color*/
+    --bg-button: #1A002E;
+    --bg-white: #fff;
+    --bg-gray: #F6F6F6;
+    --bg-review-card: #F2EAF1;
+    --bg-button-pink: #BA2871;
+    --bg-light-pink: #ba287114;
+    --bg-button-green: #3ff53b2e;
+    --bg-scanner: #F5EEFA;
+    --bg-contact-gray: #E8E8E8;
+    --bg-contact-light-gray: #F8F8F8;
+
+    /* text color */
+    --text-gray: #565656;
+    --text-black: #000000;
+    --text-white: #fff;
+    --text-review-card: #2F2F2F;
+    --text-green: #03C52D;
+    --text-dark-gray: #848199;
+    --text-pink: #ED2A8C;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: var(--bg-gray);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--bg-button);
+}
+
+.navbar {
+    background-color: var(--bg-white);
+}
+
+.paddingContainer {
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-top: 6rem;
+
+}
+
+.main_wrap {
+    max-width: 1440px;
+
+}
+
+
+
+.card {
+    border: 0px !important;
+}
+
+
+.go-top-btn {
+    position: fixed;
+    bottom: 3.5rem;
+    right: 1.5rem;
+    background-color: var(--bg-white);
+    border: 2px solid black;
+    border-radius: 50%;
+    display: none;
+    z-index: 1;
+}
+
+
+
+
+/*--------------- Navbar css start ------------------------*/
+
+
+
+
+.header .navbar {
+    padding: 0px 4.5rem;
+    max-width: 1440px;
+
+}
+
+.header .navbar-toggler:focus {
+    box-shadow: none;
+}
+
+
+.header .nav-item .nav-link {
+    font-size: 2rem;
+    font-weight: 600;
+    padding-right: 2rem;
+    color: var(--text-black);
+}
+
+.header .nav-item .nav-link.active,
+.header .nav-item .nav-link:hover {
+    color: var(--text-dark-gray);
+}
+
+
+
+.main-btn {
+    border-radius: 1rem;
+    transition: .2s;
+    font-weight: 600;
+    padding: 1.5rem 3.5rem;
+    border-radius: 8.3rem;
+    border: none;
+    background-color: var(--bg-button);
+    color: var(--text-white);
+    text-align: center;
+    font-size: 1.7rem;
+    text-decoration: none;
+    text-align: end;
+
+}
+
+.main-btn:hover {
+    background-color: var(--bg-button-pink);
+    color: var(--text-white);
+}
+
+/*--------------- Navbar css end ------------------------*/
+
+
+
+/*--------------- About section css start ------------------------*/
+
+
+.about .mainContainer .text {
+    padding-top: 3rem;
+}
+.about .mainContainer .bigText{
+    max-width: 80rem;
+
+}
+.about .mainContainer .bigText h1 {
+    font-size: 4.5rem;
+    color: var(--bg-button);
+}
+.about .mainContainer .bigText p{
+    font-size: 2rem;
+    padding-top: 2rem;
+}
+.about .mainContainer .text h3 span {
+    color: var(--text-black);
+}
+
+.about .header-buttons {
+    padding-top: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about .header-buttons .button {
+    background-color: var(--bg-white);
+    border: 0.1rem solid var(--bg-button);
+    color: var(--text-black);
+    margin-left: 2rem;
+}
+
+.about .header-buttons .button:hover {
+    background-color: var(--bg-button-pink);
+    color: var(--text-white);
+}
+
+.about .mainContainer .row {
+    display: flex;
+}
+
+.about .mainContainer .row img {
+    height: 5rem;
+}
+
+.about .innerContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 3rem;
+}
+
+.slider {
+    background-image: url(../assets/images/bgimage\ 1.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin-top: 9rem;
+
+
+}
+
+.slider .video .animated {
+    width: 100%;
+
+}
+
+.slider .video {
+    max-width: 100rem;
+    padding: 5rem;
+}
+
+.slider .video .available {
+    display: flex;
+    align-items: center;
+    max-width: fit-content;
+    background-color: #00000026;
+    padding: 0.3rem;
+    margin-top: 3rem;
+    border-radius: 1rem;
+}
+
+.slider .video .available h6 {
+    color: var(--text-white);
+    padding: 0 2rem;
+}
+
+.slider .video .available a img {
+    height: 6rem;
+}
+
+/*--------------- About section css end ------------------------*/
+
+
+
+
+
+/* ---------------features section css start -----------------*/
+
+.features .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.features .paddingContainer {
+    padding-top: 2rem;
+}
+.features .content h1 {
+    max-width: 45rem;
+}
+
+.features .content p {
+    max-width: 70rem;
+}
+
+
+.features .box .card {
+    /* max-width: 38rem; */
+    height: 100%;
+    padding: 2rem 2rem;
+    border-radius: 1rem;
+    border: 0rem !important;
+    background-color: var(--bg-gray);
+    transition: 0.4s ease;
+}
+
+.features .box .row .card .cardBody {
+    height: 100%;
+    /* display: flex; */
+    /* flex-direction: column; */
+}
+
+.features .box .row .card .cardBody h6 {
+    font-size: 1.9rem;
+}
+
+.features .box .row {
+    margin-top: 6rem;
+}
+
+.features .box .card .icon {
+    height: 6rem;
+}
+
+.features .box .card:hover {
+    transform: translateY(-2rem);
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+}
+
+/* ---------------features section css end -----------------*/
+
+/* slider css strat */
+.main-slider .swiper-wrapper .swiper-slide{
+    padding-right: 3rem;
+
+}
+/* slider css end */
+
+/* ------------------review section css start------------- */
+
+
+.carousel-indicators {
+    top: 100%;
+    justify-content: flex-end !important;
+    margin-left: 0% !important;
+    margin-right: 0% !important;
+
+}
+
+.carousel-indicators li {
+    height: 1rem !important;
+    width: 1rem !important;
+    border-radius: 50% !important;
+    background-color: var(--bg-button) !important;
+}
+
+.carousel-control-prev-icon {
+    background-image: url(../assets/images/lefterrow.png) !important;
+}
+
+.carousel-control-next-icon {
+    background-image: url(../assets/images/righterrow.png) !important;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    width: 6rem !important;
+    height: 6rem !important;
+    left: 1em !important;
+    top: 100% !important;
+    opacity: 1 !important;
+
+}
+
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    height: 4rem !important;
+    width: 4rem !important;
+    color: black !important;
+}
+
+.carousel-control-next {
+
+    left: 6em !important;
+
+}
+
+.review .content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.review .content h1 {
+    max-width: 60rem;
+}
+
+.review .content p {
+    padding-top: 1rem;
+    max-width: 50rem;
+}
+
+.review .row {
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+
+.review .carousel-inner .carousel-item .row .card {
+    height: 100%;
+    border: none;
+    padding: 2.5rem;
+    background-color: var(--bg-review-card);
+    border-radius: 1rem;
+}
+
+.review .row .card p {
+    padding-top: 3rem;
+}
+
+.review .row .customercard {
+    display: flex;
+    align-items: center;
+}
+
+.review .row .customercard .name {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    padding-left: 1.5rem;
+}
+
+.review .customercard .name strong {
+    font-size: 1.7rem;
+    letter-spacing: 0.1rem;
+}
+
+.review .card span {
+    font-size: 1.5rem;
+}
+
+.review .card .box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.review .row .box .rate {
+    display: flex;
+    align-items: center;
+
+}
+
+/*---------- review section end------------- */
+
+
+
+
+/* ------------------pricing section css start------------- */
+
+.pricing {
+    background-color: var(--bg-review-card);
+    margin-top: 10rem;
+    padding-bottom: 5rem;
+}
+
+.pricing .pricingContainer {
+    background-color: var(--bg-white);
+    padding: 0.1rem 4rem 4rem 4rem;
+    border-radius: 3rem;
+    margin-top: 5rem;
+}
+
+.pricing .pricingContainer .row2 {
+    margin-top: 5rem;
+}
+
+.pricing .pricingContainer .row2 .gap4 .cardBody {
+    position: relative;
+}
+
+.pricing .pricingContainer .row2 .gap4 .offer {
+    text-align: center;
+    color: white;
+    width: 20rem;
+    border-radius: 5rem;
+    background-color: #FF721F;
+    position: absolute;
+    top: -15rem;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 0px 4px 0px #C94A00;
+}
+
+.pricing .pricingContainer .row2 .gap4 .offer h4 {
+    padding: 0.8rem;
+    font-size: 2rem;
+    font-weight: 800;
+    color: #883200;
+}
+
+
+.pricing .pricingContainer .card strong {
+    font-size: 4rem;
+}
+
+.pricing .pricingContainer .card {
+    /* padding: 2rem; */
+    border-radius: 3rem;
+    transition: 0.4s ease;
+    height: 100%;
+    background-color: var(--bg-gray);
+}
+
+.pricing .pricingContainer .card .card-header {
+    border-radius: 3rem 3rem 0 0;
+    padding: 3rem 0 3rem 2rem;
+    color: var(--text-white);
+    background-color: var(--bg-button);
+    clip-path: polygon(0 0, 100% 0%, 100% 95%, 50% 100%, 0 95%);
+}
+
+.pricing .pricingContainer .card .cardBody {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    padding: 0rem 2rem 2rem 2rem;
+}
+
+.pricing .pricingContainer .card .cardBody .bgpink {
+    background-color: var(--bg-button-pink);
+}
+
+.pricing .pricingContainer .row .bgblue {
+    background-color: var(--bg-button);
+}
+
+.pricing .pricingContainer .row .bggreen {
+    background-color: #2F7C00;
+    ;
+}
+
+
+.pricing .pricingContainer .card .plans {
+    flex-grow: 1;
+}
+
+
+
+.pricing .pricingContainer .card:hover {
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+
+    transform: translateY(-3rem);
+
+
+}
+
+
+.pricing .pricingContainer .card:hover .main-btn {
+    background-color: var(--bg-button-pink);
+}
+
+
+
+
+.pricing .pricingContainer .card .plan1 {
+
+    display: flex;
+    align-items: center;
+    padding-bottom: 1rem;
+}
+
+.pricing .pricingContainer .card .pera {
+    color: var(--text-dark-gray);
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+
+
+.pricing .pricingContainer .card .cardButton .btn {
+    width: 100%;
+    text-align: center;
+}
+
+.pricing .pricingContainer .card .plans span {
+    font-size: 1.5rem;
+    color: var(--text-dark-gray);
+    font-weight: 600;
+    padding-left: 1.5rem;
+}
+
+.pricing .pricingContainer .card .bottom {
+    padding-bottom: 8rem;
+}
+
+
+
+.pricing .pricingContainer .card .populer p {
+    border-radius: 2rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    max-width: 15rem;
+    padding: 1rem 2.5rem;
+    background-color: #422658;
+    color: #ED2A8C;
+}
+
+.pricing .pricingContainer .card .populer {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+
+}
+
+.pricing .pricingContainer .card .save p {
+    color: var(--text-green);
+    background-color: var(--bg-button-green);
+    border-radius: 1rem;
+    max-width: 11rem;
+    padding: 0.5rem 0.5rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.pricing .pricingContainer .bggreen .save p {
+    background-color: #0000003D;
+    color: #EDFF1D;
+}
+
+.pricing .pricingContainer .card .deal .price {
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.pricing .pricingContainer .deal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-white);
+
+}
+
+.pricing .pricingContainer .deal .period {
+    margin-left: 0.5rem;
+    font-size: 2rem;
+}
+
+
+
+/* ------------------pricing section css end------------- */
+/* ------------------hardware section css start------------- */
+
+
+.hardware .paddingContainer h1 {
+    padding: 4rem 0;
+}
+
+.hardware .row .card {
+    background-color: var(--bg-scanner);
+    border-radius: 1rem;
+    height: 100%;
+}
+
+.hardware .row .gap {
+    margin-right: 1rem;
+}
+
+.hardware .row .gap2 {
+    margin-left: 1rem;
+    background-color: #151515;
+}
+
+.hardware .row .gap2 .item strong,
+.hardware .row .gap2 .item p {
+
+    color: var(--text-white);
+}
+
+.hardware .row .card .card_body {
+    padding: 4rem 5rem;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+.hardware .row .card .item strong {
+    font-size: 3.5rem;
+}
+
+.hardware .row .card .item p {
+    padding-top: 2rem;
+    max-width: 37rem;
+}
+
+.hardware .row .card .item a {
+    color: var(--text-white);
+    font-size: 1.7rem;
+
+}
+
+.hardware .row .card .logos {
+    padding-top: 2rem;
+}
+
+.hardware .row .card .logos .line img {
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+}
+
+
+
+.hardware .row .card .lotteryTv img {
+    max-width: 45rem;
+    padding-top: 2rem;
+
+}
+
+
+.hardware .row .card .scannerimg img {
+    height: 35rem;
+    padding-top: 3rem;
+}
+
+.hardware .row .card .price {
+    background-color: var(--bg-white);
+    max-width: 8rem;
+    margin: auto;
+    /* margin-top: 1rem; */
+}
+
+.hardware .row .card .price p {
+    color: var(--text-black);
+    font-weight: 700;
+    font-size: 2rem;
+    padding: 0.5rem;
+}
+
+
+/* scannerpart */
+.hardware .scan .paddingContainer {
+    padding: 5rem;
+    margin-top: 8rem;
+}
+
+.hardware .paddingContainer .scannerContainer {
+    border-radius: 3rem;
+    background-color: var(--bg-scanner);
+    border-radius: 3rem;
+}
+
+.hardware .scannerContainer .row .first {
+    background-color: var(--bg-button-pink);
+    padding: 3rem 0rem;
+    text-align: center;
+    border-radius: 3rem 0 0 0;
+}
+
+
+.hardware .paddingContainer .scannerContainer .row .scanPrice {
+    background-color: var(--bg-white);
+    padding: 4rem;
+    border-radius: 0 0 0 3rem;
+}
+
+.hardware .scannerContainer .row .scanPrice strong {
+    font-size: 3.5rem;
+}
+
+.hardware .scannerContainer .row .scanPrice p {
+    color: var(--text-black);
+    font-size: 2rem;
+    max-width: 55rem;
+    text-align: start;
+}
+
+.hardware .scannerContainer .row .scanPrice p span {
+    font-weight: 700;
+    color: var(--text-pink);
+}
+
+.hardware .scannerContainer .row .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+
+}
+
+.hardware .scannerContainer .row .container .scanInfo .btn {
+    margin: 2.5rem 0;
+}
+
+.hardware .scannerContainer .row .scanInfo .head {
+    max-width: 30rem;
+    font-size: 3.5rem;
+    line-height: normal;
+    padding-bottom: 2.5rem;
+}
+
+.hardware .scannerContainer .row .scanInfo p {
+    max-width: 38rem;
+}
+
+/* ------------------hardware section css end------------- */
+
+
+/* ------------------footer section css start------------- */
+
+.contact h1 {
+    max-width: 40rem;
+    padding-bottom: 5rem;
+}
+
+.contact .row .gap3 {
+    margin-right: 2rem;
+}
+
+.contact .row .gap4 {
+    margin-left: 3rem;
+}
+
+.contact .card .row input,
+.contact .card .row textarea {
+    width: 100%;
+    background-color: var(--bg-contact-gray);
+}
+
+.contact .card .row .form-control {
+    border-radius: 1.5rem;
+    border: none;
+    padding: 1.3rem 2rem;
+    font-size: 1.8rem;
+}
+
+.contact .card .row .form-control:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+
+
+.contact .card .row .wrapper {
+    width: 100%;
+
+    background-color: var(--bg-contact-light-gray);
+    padding: 1.5rem 1.5rem;
+    border-radius: 1.5rem;
+}
+
+.contact .card .row .wrapper .content {
+    font-size: 2rem;
+    padding-bottom: 1.5rem;
+    font-weight: 500;
+}
+
+.contact .card .wrapper .content .form-label {
+    margin-left: 1rem;
+}
+
+.contact .card .row .wrapper .radioButton {
+    display: flex;
+}
+
+.contact .card .row .wrapper .option,
+.contact .card .row .wrapper .option1 {
+
+    background-color: #DFDFDF;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0 1rem;
+    border-radius: 3rem;
+    padding: 1rem 1rem;
+    cursor: pointer;
+}
+
+.contact .card .row .wrapper .option span,
+.contact .card .row .wrapper .option1 span {
+
+    font-size: 2rem;
+    color: var(--text-black);
+    padding-left: 1rem;
+}
+
+.contact .card .row .wrapper .dot,
+.contact .card .row .wrapper .dot1 {
+
+    height: 2rem;
+    width: 2rem;
+    background-color: white;
+    border-radius: 50%;
+    border: 2px solid gray;
+    position: relative;
+    margin-left: 1rem;
+}
+
+.contact .card .row .wrapper .dot::before,
+.contact .card .row .wrapper .dot1::before {
+
+    position: absolute;
+    content: "";
+    top: 4px;
+    left: 4px;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    opacity: 0;
+
+}
+
+.contact .card .row .wrapper input {
+    display: none;
+}
+
+
+.contact .card .row .wrapper #option1:checked:checked~.option1,
+.contact .card .row .wrapper #option2:checked:checked~.option2,
+.contact .card .row .wrapper #option3:checked:checked~.option3,
+.contact .card .row .wrapper #option4:checked:checked~.option4 {
+
+    background-color: #D8DFFF;
+
+}
+
+.contact .card .row .wrapper #option1:checked:checked~.option1 .dot,
+.contact .card .row .wrapper #option2:checked:checked~.option2 .dot,
+.contact .card .row .wrapper #option3:checked:checked~.option3 .dot1,
+.contact .card .row .wrapper #option4:checked:checked~.option4 .dot1 {
+
+    background-color: #3519ec;
+    border: 2px solid white;
+
+}
+
+.contact .card .row .bigbutton .btn {
+    width: 100%;
+    text-align: center;
+    border-radius: 1.5rem;
+    margin-bottom: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact .card .row .bigbutton .btn:hover {
+    background-color: var(--bg-button);
+}
+
+.contact .card .row .bigbutton .loader{
+    pointer-events: none;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    border: 0.3rem solid transparent;
+    border-top-color: white;
+    animation: an1 1s ease infinite;
+    transition: 0.2s;
+    cursor: pointer;
+}
+@keyframes an1 {
+    0%{
+        transform: rotate(0turn);
+    }
+    100%{
+        transform: rotate(1turn);
+    }
+    
+}
+
+
+.contact .row .add {
+    border-radius: 1rem;
+
+    background-color: var(--bg-contact-light-gray);
+}
+
+.contact .row .add .card_body {
+    padding: 3rem 4rem;
+
+}
+
+.contact .row .add .card_body .link a {
+    color: var(--text-black);
+    font-weight: bolder;
+    font-size: 2rem;
+
+}
+
+.contact .row .add .card_body strong {
+    font-size: 2rem;
+}
+
+
+
+.contact .row .add .card_body .row {
+    padding-top: 3rem;
+}
+
+.contact .row .add .card_body .row .exploringLink {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.contact .row .add .card_body .row .exploringLink a {
+    color: var(--text-black);
+    line-height: 3rem;
+
+}
+
+.contact .row .add .card_body .link p {
+    margin-top: 1rem;
+}
+
+.contact .row .add .card_body .link a:hover {
+    color: var(--bg-button-pink);
+
+}
+
+.contact .row .add .card_body .row .exploringLink a:hover {
+
+    color: var(--bg-button-pink);
+    text-decoration: underline;
+}
+
+.contact .row .add .card_body .row .address {
+    font-size: 1.4rem;
+    /* max-width: 25rem; */
+    margin-top: 3rem;
+    font-weight: 500;
+}
+
+.contact .row .add .card_body .row .map {
+    background-color: var(--bg-contact-gray);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 8rem;
+    padding: 0.5rem;
+    border-radius: 0.6rem;
+    margin-top: 1rem;
+
+}
+
+.contact .row .add .card_body .row .map a {
+    font-size: 1.5rem;
+    color: var(--text-black);
+}
+
+.contact .row .add .card_body .row .map a img {
+    padding-right: 0.5rem;
+}
+
+.contact .row .add .card_body .row .links {
+    display: flex;
+    flex-direction: column;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    text-transform: uppercase;
+
+}
+
+.contact .row .add .card_body .row .links a {
+    color: var(--text-black);
+    font-size: 1.5rem;
+    padding-bottom: 0.5rem;
+    font-weight: 600;
+    letter-spacing: 0.2rem;
+    text-decoration: underline;
+}
+
+.contact .row .add .card_body .row .links a:hover {
+    color: var(--bg-button-pink);
+}
+
+.contact .paddingContainer .arrow {
+    display: flex;
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+    justify-content: end;
+    cursor: pointer;
+}
+
+.contact .paddingContainer .footer {
+    max-height: 20rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.8rem;
+    font-weight: 500;
+    padding-top: 1.5rem;
+    padding-bottom: 2rem;
+}
+
+.contact .paddingContainer .footer p,
+.contact .paddingContainer .footer p a {
+    color: var(--text-black);
+}
+
+.contact .paddingContainer .footer .term a {
+    color: var(--text-black);
+}
+
+.contact .paddingContainer .footer .term a:hover,
+.contact .paddingContainer .footer p a:hover {
+
+    color: var(--bg-button-pink);
+    text-decoration: underline;
+}
+
+
+
+/* ------------------footer section css end------------- */
+
+
+
+/* --- page - 2----- */
+
+/* why us section css start  */
+
+
+
+.aboutUs .paddingContainer .content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.aboutUs .paddingContainer .content h1 {
+    max-width: 30rem;
+}
+
+.aboutUs .paddingContainer .content .text {
+    max-width: 65rem;
+}
+
+.aboutUs .paddingContainer .content .text .innerText {
+    padding-bottom: 1rem;
+}
+
+.aboutUs .paddingContainer .row .card {
+
+    margin-top: 13rem;
+}
+
+
+
+
+.whyUs .paddingContainer .text {
+    text-align: center;
+    /* margin-bottom: 7rem; */
+
+
+}
+
+.whyUs .paddingContainer .row .content .details .title {
+    font-size: 3.5rem;
+    max-width: 45rem;
+    line-height: 4rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+
+}
+
+.whyUs .paddingContainer .row {
+    margin-bottom: 7rem;
+}
+
+
+.whyUs .paddingContainer .row .gap1 {
+    margin-right: 3rem;
+}
+
+.whyUs .paddingContainer .row .gap2 {
+    margin-left: 3rem;
+}
+
+
+.whyUs .paddingContainer .row .card .mainImg img {
+    height: 100%;
+    width: 100%;
+    border-radius: 1rem;
+}
+
+
+.whyUs .paddingContainer .row .content .details p {
+    /* max-width: 47rem; */
+
+}
+
+.whyUs .paddingContainer .text .subtitle {
+    max-width: 73rem;
+    padding-top: 2rem;
+    padding-bottom: 7rem;
+    margin: auto;
+}
+
+/* why us section css end  */
+
+
+
+/* --- page - 3----- */
+/* privacy section css start  */
+.privacy .paddingContainer .content .text {
+    margin-top: 5rem;
+}
+
+.privacy .paddingContainer .content p {
+    font-size: 1.8rem;
+    text-align: justify;
+}
+
+.privacy .paddingContainer .content ul {
+    padding: 2rem 5rem;
+    font-size: 1.5rem;
+}
+
+.privacy .paddingContainer .content ul li {
+    list-style-type: disc;
+}
+
+.privacy .paddingContainer .content span {
+    font-size: 1.8rem;
+    color: var(--text-gray);
+}
+
+.privacy .paddingContainer .content h3 {
+    padding: 2rem 0;
+}
+
+.privacy .paddingContainer .content h4 {
+    padding: 1rem 0;
+}
+
+
+
+/* privacy section css end  */
+
+
+/* --- page - 4----- */
+/* terms section css start  */
+
+.terms .paddingContainer .content h1 {
+    padding: 5rem 0;
+}
+
+.terms .paddingContainer .content h4 {
+    padding: 1.5rem 0;
+    font-size: 2.8rem;
+}
+
+.terms .paddingContainer .content p {
+    text-align: justify;
+}
+
+.terms .paddingContainer .content strong {
+    /* font-size: 1.5rem; */
+    color: black;
+}
+
+
+/* terms section css end  */

@@ -1,0 +1,791 @@
+@media (min-width: 1920px) and (max-width: 5000px) {
+
+    body {
+        display: flex;
+        justify-content: center;
+    }
+
+    .fixed-top {
+        position: relative;
+    }
+
+
+}
+
+@media (min-width: 993px) and (max-width:1300px) {
+
+    html {
+        font-size: 50%;
+    }
+
+    .about .mainContainer .text {
+        padding-top: 10rem;
+    }
+
+
+}
+
+
+@media (max-width: 992px) {
+
+    html {
+        font-size: 55%;
+    }
+
+    .navbar-toggler-icon {
+        width: 3.5em;
+        height: 3.5em;
+    }
+
+    .header .navbar-collapse {
+        text-align: center;
+    }
+
+    .header .navbar {
+
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    }
+
+    .slider .video .available a img {
+        height: 5rem;
+    }
+
+    .header .nav-item .nav-link {
+        padding-bottom: 2rem;
+    }
+
+    .header .navbar .btn {
+        margin-bottom: 2rem;
+
+    }
+
+    
+    .features .content p {
+        max-width: 41rem;
+    }
+    .review .row .customercard .customimg img {
+        height: 5rem;
+        width: 5rem;
+    }
+
+    .review .row .card {
+        padding: 1.5rem;
+    }
+
+    
+       .pricing .pricingContainer .row .gap {
+        margin-bottom: 5rem;
+    }
+    .pricing .pricingContainer .row .gap3 {
+        margin-right: 1.5rem;
+    }
+
+    .pricing .pricingContainer .row .gap4 {
+        margin-left: 1.5rem;
+    }
+
+    .pricing .pricingContainer .card .cardButton .btn {
+        font-size: 1.5rem;
+
+    }
+
+    .hardware .scannerContainer .row .first img {
+        height: 25rem;
+    }
+
+    .pricing .pricingContainer .row2 .gap4 .offer {
+        top: -14rem;
+
+    }
+
+   
+    .pricing .pricingContainer .deal .period {
+        font-size: 1.5rem;
+    }
+
+    .pricing .pricingContainer .card .deal .price {
+        font-size: 3rem;
+    }
+
+    .pricing .pricingContainer .card .populer p {
+
+        padding: 0.5rem 2rem;
+    }
+
+    .pricing .pricingContainer .card strong {
+        font-size: 3rem;
+    }
+
+    .pricing .pricingContainer .card .save p {
+        padding: 0.5rem 0.5rem;
+        font-size: 1.5rem;
+    }
+
+    .hardware .row .card .logos .line img {
+        max-width: 7rem;
+    }
+
+    .hardware .row .card .lotteryTv img {
+        max-width: 25rem;
+    }
+
+    .hardware .row .card .card_body {
+        padding: 5rem 4rem;
+    }
+
+    .hardware .row .card .item p {
+        padding-top: 2rem;
+        max-width: 37rem;
+    }
+
+    .hardware .row .card .lotteryTv {
+        text-align: center;
+    }
+
+    .hardware .row .card .scannerimg img {
+        max-width: 30rem;
+        padding-top: 3rem;
+    }
+
+    /* page-2 about us */
+    .aboutUs .paddingContainer .content .text {
+        max-width: 50rem;
+    }
+
+    .whyUs .paddingContainer .row .content .details p {
+
+        font-size: 1.5;
+    }
+    .whyUs .paddingContainer .row {
+        margin-bottom: 0rem;
+    }
+    .whyUs .paddingContainer .row .content img {
+        height: 5rem;
+    }
+
+    .whyUs .paddingContainer .row .content .details .title {
+        font-size: 2.5rem;
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+
+
+    }
+
+
+
+}
+
+
+
+@media (max-width:768px) {
+
+    html {
+        font-size: 55%;
+    }
+
+    p {
+        text-align: center;
+
+        line-height: 2.9rem;
+        font-size: 1.8rem;
+    }
+
+    h1 {
+        text-align: center;
+        padding-bottom: 2rem;
+        font-size: 4rem;
+    }
+
+    h4 {
+        font-size: 1.7rem;
+    }
+
+    h6 {
+        font-size: 1.9rem;
+    }
+
+    .main_wrap .go-top-btn img {
+        height: 4rem;
+    }
+
+    .paddingContainer {
+        padding-top: 5rem;
+    }
+    .about .mainContainer .bigText h1 {
+        font-size: 3.5rem;
+        margin-bottom: 1rem;
+    }
+    .about .mainContainer .text {
+        padding-top: 5rem;
+    }
+       .slider .video .available h6{
+        font-size: 1.5rem;
+    }
+    .slider .video .available a img {
+        height: 3rem;
+    }
+
+
+    .navbar-toggler-icon {
+        width: 3.5em;
+        height: 3.5em;
+    }
+
+    .header .nav-item .nav-link {
+        padding-bottom: 2rem;
+    }
+
+    
+.main-slider .swiper-wrapper .swiper-slide {
+    padding-right: 2rem;
+}
+
+    .features .box .card .icon {
+        height: 7rem;
+    }
+
+    .features .content {
+        flex-direction: column;
+    }
+    .features .content p {
+        max-width: 64rem;
+    }
+    .features .box .card {
+        padding: 2rem;
+        text-align: center;
+
+    }
+
+    .features .box .row {
+        --bs-gutter-y: 2rem;
+    }
+
+    .review .customercard .name strong {
+        font-size: 1.4rem;
+    }
+
+
+    .review .content {
+        flex-direction: column;
+    }
+
+    .review .content h1 {
+        margin: auto;
+    }
+
+    .review .row .card span {
+        font-size: 1.3rem;
+    }
+
+    .review .row {
+        --bs-gutter-y: 2rem;
+    }
+
+    .review .row .card {
+        padding: 1.5rem;
+    }
+
+    .review .content p {
+        margin: auto;
+    }
+
+    .pricing .pricingContainer {
+        margin-top: 1rem;
+        padding: 5rem 5rem 0 5rem;
+    }
+
+    
+    .pricing .pricingContainer .row .gap {
+        margin-bottom: 0rem;
+    }
+    .pricing .pricingContainer .card .cardBody .pera {
+        text-align: start;
+    }
+
+    .pricing .pricingContainer .row .card {
+        /* padding: 2rem; */
+        height: auto;
+        margin-bottom: 6rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .pricing .pricingContainer .card .pb {
+        padding-bottom: 14rem;
+    }
+
+    .pricing .pricingContainer .row2 .gap4 .offer {
+        top: -13rem;
+
+    }
+    .pricing .pricingContainer .row2 {
+        margin-top: 0rem;
+    }
+    
+    .pricing .pricingContainer .row2 .card .pt {
+        padding-bottom: 17rem;
+    }
+
+    .pricing .pricingContainer .card strong {
+        font-size: 2.5rem;
+    }
+
+    .pricing .pricingContainer .card .deal .price {
+        font-size: 2.5rem;
+
+    }
+
+    .pricing .pricingContainer .card .plans span {
+        font-size: 1.5rem;
+    }
+
+    .pricing .pricingContainer .card .populer p {
+        font-size: 1rem;
+        padding: 0rem 1.5rem;
+    }
+
+    .pricing .pricingContainer .card .save p {
+        padding: 0.5rem 0.5rem;
+        font-size: 1.5rem;
+        margin-top: 2rem;
+    }
+
+    .pricing .pricingContainer .card .pera {
+        font-size: 1.5rem;
+    }
+
+    .pricing .pricingContainer .deal .period {
+        font-size: 1.5rem;
+    }
+
+    .pricing .pricingContainer .card .cardBody {
+        justify-content: center;
+    }
+
+/* scannerpart */
+    .hardware .scannerContainer .row .scanInfo .head {
+        font-size: 3rem;
+    }
+    .hardware .scan .paddingContainer {
+        margin-top: 2rem;
+    }
+    .hardware .scannerContainer .row .scanInfo {
+        text-align: center;
+    }
+    .hardware .scannerContainer .row .scanInfo p {
+        font-size: 1.7rem;
+    }
+
+    .hardware .scannerContainer .row .scanInfo .head {
+        padding-top: 4rem;
+        margin: auto;
+
+    }
+
+    .hardware .scannerContainer .row .scanPrice {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .hardware .scannerContainer .row .first {
+        border-radius: 3rem 3rem 0 0;
+    }
+
+    .hardware .scannerContainer .row .first img {
+        height: 25rem;
+    }
+
+    .hardware .paddingContainer .scannerContainer .row .scanPrice {
+        border-radius: 0 0 3rem 3rem;
+    }
+
+/* hardwarepart */
+
+    .hardware .row .card .logos {
+        padding-top: 3rem;
+    }
+
+    .hardware .row .card {
+        height: auto;
+        margin-bottom: 5rem;
+    }
+
+    .hardware .row .card .scannerimg img {
+        height: 30.5rem;
+    }
+    .hardware .row .card .card_body {
+        padding: 5rem 3rem;
+    }
+    .hardware .row .card .card_body {
+        text-align: center;
+        padding-bottom: 2rem;
+    }
+
+    .hardware .row .card .card_body .item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .hardware .row .gap {
+        margin-right: 0rem;
+    }
+
+    .hardware .row .gap2 {
+        margin-left: 0rem;
+    }
+
+    .contact .row .gap3 {
+        margin-right: 0rem;
+    }
+
+    .contact .row .gap4 {
+        margin-left: 0rem;
+    }
+
+    .contact .row .gap3 {
+        margin-bottom: 3rem;
+    }
+
+    .contact .row .add .card_body p {
+        text-align: start;
+    }
+
+    .contact h1 {
+        margin: auto;
+    }
+
+    .contact .row .add .card_body .row .map p {
+        padding-top: 0;
+    }
+
+    .contact .paddingContainer .arrow img {
+        height: 4rem;
+    }
+
+    .contact .footer {
+        flex-direction: column;
+    }
+
+    .contact .footer .term {
+        padding-top: 1rem;
+    }
+
+    .contact .row .add .card_body strong {
+        font-size: 1.7rem;
+    }
+
+    /* page 2 */
+    .aboutUs .paddingContainer {
+        padding-top: 10rem;
+    }
+
+    .aboutUs .paddingContainer .content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .aboutUs .paddingContainer .content h1 {
+        max-width: 36rem;
+    }
+
+    .aboutUs .paddingContainer .content .text {
+        max-width: 75rem;
+    }
+
+    .aboutUs .paddingContainer .row .card {
+
+        margin-top: 5rem;
+    }
+
+    .whyUs .paddingContainer .row .card {
+        display: flex;
+        align-items: center;
+
+    }
+    .whyUs .paddingContainer .row {
+        margin-bottom: 5rem;
+    }
+
+    .whyUs .paddingContainer .row .content .details p {
+        text-align: start;
+        font-size: 1.5;
+    }
+
+    .whyUs .paddingContainer .row .content img {
+        height: 5rem;
+    }
+
+    .whyUs .paddingContainer .row .content .details .title {
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+    }
+
+    .whyUs .paddingContainer .row .gap1 {
+        margin-right: 1rem;
+
+    }
+
+    .whyUs .paddingContainer .row .gap2 {
+        margin-left: 1rem;
+
+    }
+
+    /* --- page - 2----- */
+    /* privacy section start  */
+    .privacy .paddingContainer .content h1 {
+        margin-top: 5rem;
+        text-align: start;
+    }
+
+    .privacy .paddingContainer .content p {
+        text-align: justify;
+    }
+
+    /* --- page - 3----- */
+    /* terms section start  */
+
+    .terms .paddingContainer .content h1 {
+        text-align: start;
+    }
+
+    .terms .paddingContainer .content p {
+        text-align: justify;
+    }
+
+
+
+}
+
+@media (max-width:576px) {
+    html {
+        font-size: 40%;
+    }
+
+    .navbar-toggler-icon {
+        width: 3.5em;
+        height: 3.5em;
+    }
+
+    .header .navbar .logo {
+        height: 50px;
+    }
+    .slider .video .available h6{
+        padding: 0 1rem;
+    }
+
+    p {
+        font-size: 1.7rem;
+        padding-top: 2rem;
+        line-height: 3rem;
+    }
+
+    h1 {
+        font-size: 4rem;
+    }
+
+    h3 {
+        line-height: 30px;
+    }
+
+    .main_wrap .go-top-btn img {
+        height: 5rem;
+    }
+
+    .main-btn {
+        font-size: 2.5rem;
+    }
+    .about .mainContainer .bigText {
+        max-width: 64rem;
+    }
+    .about .header-buttons {
+
+        flex-direction: column;
+    }
+
+    .about .header-buttons .button {
+        margin-top: 2rem;
+        margin-left: 0;
+    }
+
+    .about .header-buttons .btn {
+        width: 100%;
+        text-align: center;
+    }
+
+
+    .slider .video {
+        padding: 3rem;
+    }
+
+    .review .customercard .name strong {
+        font-size: 2.4rem;
+    }
+
+   
+    .review .row .card span {
+        font-size: 2rem;
+    }
+
+    .review .row .card {
+        padding: 2.5rem;
+    }
+
+    .review .content p {
+        margin: auto;
+    }
+
+    .main-slider .swiper-wrapper .swiper-slide {
+        padding-right: 1.5rem;
+    }
+
+
+       .about .innerContainer img {
+        height: 4.5rem;
+    }
+
+    .pricing .pricingContainer .row2 .bgblue {
+        margin-top: 2rem;
+    }
+
+    .pricing .pricingContainer .row2 .bgblue .top {
+        padding-top: 5rem;
+    }
+
+    .pricing .pricingContainer .row2 .gap4 .offer {
+        width: 30rem;
+        top: -16rem;
+        box-shadow: 0px 2.5px 0px #C94A00;
+    }
+    .pricing .pricingContainer .row2 .gap4 {
+        margin-top: 2rem;
+    }
+    .pricing .pricingContainer .row2 .gap4 .offer h4 {
+        padding: 1rem;
+        font-size: 3rem;
+    }
+
+    .pricing .pricingContainer .card .populer p {
+
+        font-size: 1.3rem;
+        padding: 0.5rem 1.9rem;
+    }
+
+    .pricing .pricingContainer .card .top {
+        padding-top: 0rem;
+    }
+
+    .pricing .pricingContainer .deal .period {
+        margin-left: 0.7rem;
+        font-size: 2.3rem;
+    }
+
+    .pricing .pricingContainer .card .pera {
+        font-size: 2.3rem;
+    }
+
+    .pricing .pricingContainer .card .plans span {
+        font-size: 2.3rem;
+    }
+
+    .paddingContainer {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .pricing .pricingContainer {
+        padding: 0rem;
+        background-color: transparent;
+
+    }
+
+
+    .pricing .pricingContainer .card .cardButton .btn {
+        font-size: 2.5rem;
+    }
+
+    .pricing .pricingContainer .card strong {
+        font-size: 3.5rem;
+    }
+
+    .pricing .pricingContainer .card .deal .price {
+        font-size: 3.5rem;
+    }
+
+    .pricing .pricingContainer .card .cardBody {
+        justify-content: center;
+    }
+
+    .hardware .scannerContainer .row .first img {
+        height: 20rem;
+    }
+    .hardware .scan .paddingContainer {
+        padding: 5rem 2rem 5rem 2rem;
+    }
+    .hardware .row .card .item p {
+        max-width: 45rem;
+    }
+
+    .hardware .row .card .logos .line img {
+        max-width: 8rem;
+    }
+
+    .contact .paddingContainer .arrow img {
+        height: 5rem;
+    }
+
+    .contact .row .add .card_body .row .map {
+        padding: 0rem;
+    }
+
+    .contact .card .row .wrapper {
+        margin-top: 2rem;
+    }
+
+    .contact .row .add .card_body strong {
+        font-size: 2rem;
+    }
+
+    .contact .row .add .card_body .row .map {
+        max-width: 10rem;
+        padding: 0.5rem;
+    }
+
+    .contact .row .add .card_body .row .other {
+        margin-top: 3rem;
+    }
+
+    /* page-2 about us */
+    .whyUs .paddingContainer .row .gaping {
+        padding-left: 2rem;
+    }
+
+    .whyUs .paddingContainer .row .content .details p {
+        font-size: 1.7rem;
+    }
+    .whyUs .paddingContainer .text .title {
+        text-align: start;
+        padding-left: 2rem;
+        /* margin-bottom: 7rem; */
+    
+    
+    }
+    .whyUs .paddingContainer .row .content img {
+        height: 6rem;
+    }
+
+    .whyUs .paddingContainer .row .content .details .title {
+        font-size: 3rem;
+    }
+    .whyUs .paddingContainer .text .subtitle {
+        max-width: 100%;
+        text-align: start;
+        padding-left: 2rem;
+    }
+}
